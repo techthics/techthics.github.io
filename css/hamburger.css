@@ -135,7 +135,7 @@
   padding: 1em;
   margin: 20px 0px 0px 0px;
   font-family: sans-serif;
-  font-size: 12px;
+  font-size: 1.5rem;
   text-transform: uppercase;
   text-align: center;
   background-color: white;
@@ -147,10 +147,10 @@
 
 #mainMenu a {
   text-decoration: none;
-  color: dodgerblue;
+  color: purple;
   display: block;
   padding: .5em;
-  border: 1px solid dodgerblue;
+  border: 1px solid purple;
   border-radius: 5px;
   margin: .4em;
   transition: background 500ms;

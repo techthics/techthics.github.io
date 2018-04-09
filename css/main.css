@@ -54,13 +54,33 @@ nav{
 	font-size: 2rem;
 	display: flex;
 	justify-content: space-around;
-	flex-wrap: wrap-reverse;
+	flex-wrap: wrap;
+	align-items: stretch;
+	color: #2d2d2d;
 }
 
 article{
 	width: 50%;
-	border: 2px solid black;
+	border: 2px solid #808080;
 	padding: 5rem;
+	height: 25rem;
+	text-align: center;
+}
+
+article img{
+	width: 15rem;
+}
+
+.one{
+	background-color: #d5ffeb;
+}
+
+.two{
+	background-color: #ffd5e6;
+}
+
+.three{
+	background-color: #fff5d5;
 }
 
 .parallax {
