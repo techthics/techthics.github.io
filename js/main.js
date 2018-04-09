@@ -23,3 +23,7 @@ function activate(){
 }
 
 console.log("loaded")
+
+$('.parallax').parallax({
+      imageSrc: 'http://www.allwhitebackground.com/images/2/2278-190x190.jpg'
+    });
