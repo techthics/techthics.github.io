@@ -2,16 +2,63 @@
   box-sizing: border-box;
 }
 
-/*HEADER*/
-header{
-	background-color: blue;
+html{
+	font-size: 12px;
 }
 
-/*BODY*/
-header{
-	font-family: 'Francois One', sans-serif;
+h1,h3{
+	font-family: 'Roboto', sans-serif;
 }
 
 body{
 	font-family: 'Tajawal', sans-serif;
+	margin: 0px;
+	text-align: center;
+}
+
+/*HEADER*/
+header{
+	background-color: purple;
+	color: #f9f9f9;
+	font-size: 2rem;
+}
+
+header h1{
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+header h3{
+	padding-bottom: 3rem; 
+	-webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+}
+
+aside{
+	position: fixed;
+	right: 0px;
+	padding-top: 2rem;
+	background-color: purple;
+}
+
+nav{
+	height: 0px;
+}
+
+/*Content*/
+.parallax {
+    /* The image used */
+    background-image: url("https://www.howellmainfour.com/wp-content/uploads/2014/03/7419840024_09c152715b_o.png");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
 }

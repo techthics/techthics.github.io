@@ -2,6 +2,7 @@ var menu = document.getElementById("ham-menu");
 var bars = document.getElementById("bars");
 var body = document.getElementById("body");
 var slideMenu = document.getElementById("mainMenu");
+// var slideMenu = document.getElementsByTagName("nav");
 var clicked = true;
 
 // Click Effect
