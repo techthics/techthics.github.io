@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+}
+
+html{
+	font-size: 12px;
+}
+
+h1,h3{
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+	font-family: 'Tajawal', sans-serif;
+	margin: 0px;
+}
+
+
+h1:first-of-type{
+	margin-top: 8rem;
+	text-align: center;
+}
+
+section{
+	display: flex;
+	/*justify-content: space-around;*/
+	flex-wrap: wrap;
+	align-items: stretch;
+}
+article{
+	width: 100%;
+	height: auto;
+	margin:1rem 3rem 0rem 3rem;
+}
+
+body{
+	font-size: 2rem;
+}
+

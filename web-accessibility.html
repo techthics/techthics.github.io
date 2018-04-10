@@ -2,8 +2,49 @@
 <html>
 <head>
 	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Francois+One|Tajawal" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/hamburger.css">
+	<link rel="stylesheet" type="text/css" href="css/article.css">
 </head>
-<body>
+<aside>
+	<div id="ham-menu">
+		<div class="line-1"></div>
+		<div class="line-2"></div>
+		<div class="line-3"></div>
+	</div>
+	<nav>
+		<ul id="site-menu-right" class="hide-menu">
+			<li><a href="index.html#home">Home</a></li>
+			<li><a href="index.html#blurb-menu">Blurb Menu</a></li>
+			<li><a href="index.html#contact">Contact</a></li>
+		</ul>
+	</nav>
+</aside>
 
+<body>
+<div id="site-canvas">
+	<h1>Web Accessibility</h1>
+	<section>
+		<article>
+			<h3>Images</h3>
+			<p>You know that little alt attribute in HTML image tags? USE it! If your photo fails to load or if someone is visually impaired and is using a screen reader to view your website, the computer will say what the picture is supposed to be.</p>
+			<code>&lt;img src="puppies.jpg" alt="Picture of puppies"&gt;</code>
+			<p>Will show as:</p>
+			<img src="puppies.jpg" alt="Picture of puppies">
+		</article>
+		<article>
+			<h3>Script loading</h3>
+			<p>Imagine trying to visit a website, and having to wait minutes for the page to load bit by bit. For users with slow internet connections, this can be a common problem. To avoid this, try improving your website loading speed by loading your scripts after loading your content. <br><br>Other ways to improve performance is to reduce image file sizes and minify your code.</p>
+		</article>
+		<article>
+			<h3>Mobile friendly</h3>
+			<p></p>
+		</article>
+	</section>
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
