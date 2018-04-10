@@ -38,17 +38,6 @@ header h3{
     -webkit-margin-after: 0em;
 }
 
-aside{
-	position: fixed;
-	right: 0px;
-	padding-top: 2rem;
-	background-color: purple;
-}
-
-nav{
-	height: 0px;
-}
-
 /*Content*/
 .blurbs{
 	font-size: 2rem;
@@ -72,7 +61,7 @@ article img{
 }
 
 .one{
-	background-color: #d5ffeb;
+	background-color: #fff5d5;
 }
 
 .two{
@@ -80,7 +69,7 @@ article img{
 }
 
 .three{
-	background-color: #fff5d5;
+	background-color: #d5ffeb;
 }
 
 .parallax {
