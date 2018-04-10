@@ -72,6 +72,19 @@ article img{
 	background-color: #d5ffeb;
 }
 
+.suggestions{
+	text-align: center;
+}
+
+textarea{
+	resize: none;
+}
+
+.suggestions form input{
+	display: block;
+	margin: auto;
+}
+
 .parallax {
     /* The image used */
     background-image: url("https://www.howellmainfour.com/wp-content/uploads/2014/03/7419840024_09c152715b_o.png");
