@@ -75,14 +75,11 @@ article img{
 .suggestions{
 	text-align: center;
 }
-
-textarea{
-	resize: none;
-}
-
-.suggestions form input{
+.suggestions .inputs{
 	display: block;
-	margin: auto;
+	margin: 2rem auto;
+	background-color: #f0f0f0;
+	resize: none;
 }
 
 .parallax {
