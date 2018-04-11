@@ -1,0 +1,30 @@
+@media(max-width: 868px){
+	.blurbs{
+		position: relative;
+	}
+
+	article{
+		width: 100%;
+		position: absolute;
+	}
+
+	.second{
+		top:25rem;
+	}
+
+	.third{
+		top:50rem;
+	}
+
+	.fourth{
+		top:75rem;
+	}
+
+	.fifth{
+		top:100rem;
+	}
+
+	.sixth{
+		top:125rem;
+	}
+}
