@@ -46,3 +46,15 @@ body{
 	font-size: 2rem;
 }
 
+@media(max-width: 868px){
+	h1{
+		font-size: 3rem;
+		line-height: 0rem;
+		padding-top: 2rem;
+	}
+	article{
+		font-size: 2rem;
+		margin:1rem 3rem 0rem 3rem;
+	}
+}
+
