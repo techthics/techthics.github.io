@@ -1,4 +1,8 @@
 @media(max-width: 868px){
+	.parallax{
+		min-height: 0px;
+	}
+
 	.blurbs{
 		position: relative;
 	}
@@ -6,6 +10,12 @@
 	article{
 		width: 100%;
 		position: absolute;
+		padding: 0rem 4rem;
+	}
+
+	article img{
+		width: 10rem;
+		margin-top: 7rem;
 	}
 
 	.second{
