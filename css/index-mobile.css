@@ -37,4 +37,9 @@
 	.sixth{
 		top:125rem;
 	}
+
+	.suggestions{
+		position: relative;
+		top:150rem;
+	}
 }
