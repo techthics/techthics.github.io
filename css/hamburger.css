@@ -51,14 +51,13 @@ nav{
 
 #site-menu-right {
   width: 10rem;
-  height: 100%;
   position: absolute;
   background-color: #faf7ff;
   border: solid 3px purple;
   top:3rem;
   list-style: none;
   font-size: 1.5rem;
-  height: 50rem;
+  height: 65rem;
 }
 
 #site-menu-right li{
